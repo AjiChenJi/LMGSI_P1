@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Movie Database - Home</title>
     <link rel="stylesheet" href=".css">
 </head>
 <body>
@@ -12,16 +12,17 @@
         <nav>
             <ul>
                 <li><a href="buscador.html">Buscador</a></li>
-                <li><a href="contacte.html">Contacte</a></li>
+                <li><a href="contacte.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <h1>Buscar una película</h1>
         <p>Millones de títulos en un solo buscador!</p>
-        <input type="text" placeholder="Buscar una película...">
-        <button>Buscar</button>
-        
+    <form method="get" action="https://www.themoviedb.org/search">
+    <input type="search" name="query" placeholder="Buscar una película..." required>
+    <button type="submit">Buscar</button>
+    </form>
         <section>
             <h2>Resultados</h2>
             <div class="contenedor">
