@@ -1,0 +1,222 @@
+/* ===== DISTRIBUCIÓ (codi donat, no el modifiqueu) ===== */
+nav { display: flex; justify-content: space-between; align-items: center; }
+nav ul { display: flex; gap: 32px; }
+.resultats { display: flex; gap: 24px; }
+.targeta { flex: 1; }
+
+
+/* ===== ELS VOSTRES ESTILS ===== */
+
+/* ===== DISTRIBUCIÓ (codi donat, no el modifiqueu) ===== */
+nav { display: flex; justify-content: space-between; align-items: center; }
+nav ul { display: flex; gap: 32px; }
+.resultats { display: flex; gap: 24px; }
+.targeta { flex: 1; }
+
+
+/* ===== ELS VOSTRES ESTILS ===== */
+
+
+body {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  background-color: white;
+}
+
+
+header {
+  background-color: #0b3a5e;
+  padding: 15px 30px;
+  /*padding: 10px*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  color: #dddddd;
+  text-decoration: none;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+nav a:hover {
+  color: #01b4e4;
+  /*color: #ff0000; */
+}
+
+
+
+.buscador {
+  background-color: #032541;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+
+}
+
+.buscador h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  /* 18px?? no idea?*/
+}
+
+.subtitol {
+  display: block;
+  font-size: 0.9rem;
+  color: #cccccc;
+  margin-bottom: 30px;
+}
+
+.buscador form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.buscador input {
+  width: 70%;
+  border: none;
+  background-color: #0b3a5e;
+  color: white;
+  padding: 15px;
+  border-radius: 5px 0 0 5px;
+  font-family: inherit;
+}
+
+.buscador button {
+  background-color: #01b4e4;
+  border: none;
+  font-weight: bold;
+  padding: 15px 25px;
+  border-radius: 0 5px 5px 0;
+  font-family: inherit;
+}
+
+.pelicules {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.pelicules h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.targeta {
+  background-color: #0b3a5e;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: visible;
+}
+
+.imgmovie {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  display: block;
+  /* test font-size: 1rem; */
+}
+
+.texto h3 {
+  color: white;
+  font-size: 0.9rem;
+  padding: 0 10px;
+  margin: 10px 0 3px 0;
+}
+
+.texto p {
+  color: #90cea1;
+  padding: 0 10px;
+  margin: 0 0 10px 0;
+  font-style: normal;
+}
+
+
+footer {
+  background-color: #032541;
+  color: #dddddd;
+  font-size: 0.8rem;
+  padding: 20px 30px;
+  text-align: left;
+}
+
+.intro {
+  background-color: #032541;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.intro h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contacte {
+  display: flex;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 30px;
+}
+
+.perfil {
+  flex: 1;
+  background-color: #0b3a5e;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  background-color: #01b4e4;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+.formulari {
+  flex: 2;
+}
+
+.camp {
+  margin-bottom: 15px;
+}
+
+.camp label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.camp input,
+.camp textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  font-family: inherit;
+}
+
+.formulari button {
+  background-color: #01b4e4;
+  border: none;
+  padding: 12px 25px;
+  font-weight: bold;
+  font-family: inherit;
+}
